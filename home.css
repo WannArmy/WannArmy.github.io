@@ -1,0 +1,51 @@
+body {
+    background-color: rgba(245, 240, 223, 0.986);
+}
+
+.content {
+    grid-area: content;
+}
+
+.column {
+    float: left;
+    width: 50%;
+}
+
+.box {
+    width: 10%;
+    margin: 1%;
+    height: 32px;
+    text-align: center;
+    background-color: white;
+    font-size: 16px;
+    font-family: 'Fredoka One', cursive;
+}
+
+img {
+    width: 80%;
+    border-radius: 15px;
+}
+
+.box2 {
+    width: 25%;
+    margin: 1%;
+    height: 30px;
+    text-align: center;
+    background-color: white;
+    font-size: 16px;
+    font-family: 'Fredoka One', cursive;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: blue;
+}
+
+ul,
+li {
+    list-style-type: none;
+}

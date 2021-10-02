@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    height: 80px;
+}
+
+.bg-custom {
+    color: white;
+    font-size: 18px;
+}
+
+.bg-custom:hover {
+    color: rgb(190, 190, 190);
+}
+
+section {
+    box-sizing: border-box;
+}
+
+.kiri {
+    float: left;
+    width: 35%;
+}
+
+.kanan {
+    float: left;
+    width: 65%;
+    padding: 0px 3px;
+}
