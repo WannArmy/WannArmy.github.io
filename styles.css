@@ -1,10 +1,17 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
 body {
     background-color: rgb(221, 221, 221);
+}
+
+h2 {
+    text-align: center;
+}
+
+.tengah {
+    text-align: center;
+}
+
+.font {
+    font-size: 18px;
 }
 
 .logo {
@@ -25,8 +32,60 @@ body {
     height: 100%;
 }
 
-.container {
-    background-color: black;
+a {
+    list-style: none;
+}
+
+#insta {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 100px;
+}
+
+#insta:hover {
+    background: radial-gradient(circle at 30% 107%, #e6dd81 0%, #e2d979 5%, #eb594c 45%, #bd2b8f 60%, #285AEB 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 100px;
+}
+
+.icon-yt {
+    color: rgb(255, 0, 0);
+    font-size: 100px;
+}
+
+.icon-yt:hover {
+    color: rgb(214, 28, 28);
+}
+
+.icon-fb {
+    color: blue;
+    font-size: 100px;
+}
+
+.icon-fb:hover {
+    color: rgb(17, 17, 221);
+}
+
+.container-fluid {
+    text-align: center;
+}
+
+.bg-contact {
+    background-color: white;
+    padding: 40px;
+}
+
+.bg-footer {
+    width: 100%;
+    padding: 5px;
+    font-size: 25px;
+}
+
+.image {
+    width: 100%;
+    height: 25%;
 }
 
 .section {
@@ -46,9 +105,39 @@ body {
     padding: 20px;
 }
 
+@media (max-width: 1978px) {
+    p {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 1680px) {
+    p {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 1550px) {
+    p {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 1320px) {
+    p {
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 1160px) {
+    p {
+        font-size: 15px;
+    }
+}
+
 @media (max-width: 600px) {
     .video {
-        height: 40%;
+        height: 95%;
     }
 }
 
@@ -59,5 +148,23 @@ body {
 
     .kanan {
         width: 100%;
+    }
+}
+
+@media (max-width: 990px) {
+    .image {
+        height: 15%;
+    }
+}
+
+@media (max-width: 760px) {
+    .image {
+        height: 50%;
+    }
+}
+
+@media (max-width: 400px) {
+    .image {
+        height: 30%;
     }
 }
